@@ -10,7 +10,7 @@ type State = {
 
 const initialState: State = {
   todos: [],
-  loadingStatus: 'success',
+  loadingStatus: 'loading',
 };
 
 export const todosSlice = createSlice({
